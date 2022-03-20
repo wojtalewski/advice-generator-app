@@ -24,7 +24,7 @@ function App() {
     <div className='App'>
       <Card>
         <p className='advice-number'>advice #{adviceId}</p>
-        <p className='advice-text'>{advice}</p>
+        <p className='advice-text'>&ldquo;{advice}&rdquo;</p>
 
         <div className='divider-pattern-desktop'>
           <svg width='444' height='16' xmlns='http://www.w3.org/2000/svg'>
