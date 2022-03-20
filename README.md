@@ -12,4 +12,4 @@ SASS
 
 ## View Website:
 
-[Advice Generator App - Live](https://calculator-app-ivory-zeta.vercel.app/)
+[Advice Generator App - Live](https://advice-generator-app-gamma-flame.vercel.app/)
