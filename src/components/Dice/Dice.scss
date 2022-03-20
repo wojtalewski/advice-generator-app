@@ -1,0 +1,21 @@
+.dice-button {
+  width: 6rem;
+  height: 6rem;
+  background-color: $neon-green;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  position: absolute;
+  top: 100%;
+
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: darken($neon-green, 5%);
+    box-shadow: 0 0 3rem rgba(darken($neon-green, 5%), 0.3);
+  }
+}

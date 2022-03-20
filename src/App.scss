@@ -1,0 +1,20 @@
+.App {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-number {
+  color: $neon-green;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.advice-text {
+  color: $light-cyan;
+  font-size: $quote-font;
+}
