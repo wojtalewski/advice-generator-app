@@ -1,6 +1,4 @@
 .App {
-  position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +15,25 @@
 .advice-text {
   color: $light-cyan;
   font-size: $quote-font;
+}
+
+.divider-pattern-desktop {
+  @include respond(phone) {
+    width: 0;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.divider-pattern-mobile {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+
+  @include respond(phone) {
+    display: block;
+    visibility: visible;
+    opacity: 100;
+  }
 }
