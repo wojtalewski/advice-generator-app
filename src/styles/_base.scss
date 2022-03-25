@@ -34,11 +34,8 @@ body {
   align-items: center;
   justify-content: center;
 
-  // @include respond(phone) {
-  //   align-items: flex-start;
-  // }
-
   cursor: default;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
