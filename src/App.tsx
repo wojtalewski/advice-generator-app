@@ -18,6 +18,7 @@ function App() {
       setAdvice(response.data.slip.advice)
       setAdviceId(response.data.slip.id)
       setLoading(false)
+
       return response.data.slip
     } catch (error) {
       return setError(true)
