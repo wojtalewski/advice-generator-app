@@ -34,9 +34,9 @@ body {
   align-items: center;
   justify-content: center;
 
-  @include respond(phone) {
-    align-items: flex-start;
-  }
+  // @include respond(phone) {
+  //   align-items: flex-start;
+  // }
 
   cursor: default;
   -webkit-font-smoothing: antialiased;
