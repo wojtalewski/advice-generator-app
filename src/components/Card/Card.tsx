@@ -1,4 +1,8 @@
-const Card: React.FC = ({ children }) => {
+type Props = {
+  children: React.ReactNode
+}
+
+const Card = ({ children }: Props) => {
   return (
     <div className='card'>
       <div className='container'>{children}</div>
