@@ -1,7 +1,7 @@
-interface Props {
+type Props = {
   fetchAdvice: () => void
 }
-const Dice: React.FC<Props> = ({ fetchAdvice }) => {
+const Dice = ({ fetchAdvice }: Props) => {
   return (
     <button
       className='dice-button'

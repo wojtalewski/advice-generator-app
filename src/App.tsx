@@ -40,12 +40,12 @@ function App() {
   }
 
   return (
-    <div className='App'>
+    <main className='App'>
       <Card>
         <p className='advice-number'>advice #{adviceId}</p>
-        <p className='advice-text'>&ldquo;{advice}&rdquo;</p>
+        <blockquote className='advice-text'>&ldquo;{advice}&rdquo;</blockquote>
 
-        <div className='divider-pattern-desktop'>
+        <figure className='divider-pattern-desktop'>
           <svg width='444' height='16' xmlns='http://www.w3.org/2000/svg'>
             <g fill='none' fillRule='evenodd'>
               <path fill='#4F5D74' d='M0 8h196v1H0zM248 8h196v1H248z' />
@@ -55,9 +55,9 @@ function App() {
               </g>
             </g>
           </svg>
-        </div>
+        </figure>
 
-        <div className='divider-pattern-mobile'>
+        <figure className='divider-pattern-mobile'>
           <svg width='295' height='16' xmlns='http://www.w3.org/2000/svg'>
             <g fill='none' fillRule='evenodd'>
               <path fill='#4F5D74' d='M0 8h122v1H0zM173 8h122v1H173z' />
@@ -67,10 +67,10 @@ function App() {
               </g>
             </g>
           </svg>
-        </div>
+        </figure>
         <Dice fetchAdvice={fetchAdvice} />
       </Card>
-    </div>
+    </main>
   )
 }
 
